@@ -1,0 +1,68 @@
+.transac{   
+    background-color: rgb(196, 225, 250);
+    /* padding: 0px 20px; */
+    text-align: center;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.title img{
+    width: 46px;
+    height: 40px;
+}
+.title menu{
+    width: 46px;
+    height: 40px;
+}
+.transac h6{
+    background-color: white;
+    padding: 10px;
+}
+.span{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    color: blue;
+    padding: 0px 16px 12px 16px;
+}
+.table{
+    padding: 0px 16px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: max-content;
+    gap:8px;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+.btn Button{
+    width: 50%;
+    margin: 8px 0px;
+    color: black;
+    font-weight: 600;
+}
+.transac h5{
+    color: gray;
+    margin: 8px 0px;
+    background-color: white;
+    padding: 10px;
+}
+.charge{
+    margin: 0 auto;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(154, 92, 235);
+    display: flex;
+    justify-content: space-between;
+}
+.charge h4{
+    padding-top: 8px;
+}
+

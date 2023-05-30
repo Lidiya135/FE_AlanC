@@ -8,13 +8,14 @@
 .foods{
     width: 60%;
     height: 100%;
-    background-color: rgb(151, 202, 247);
+    /* background-color: rgb(151, 202, 247); */
     text-align: center;
 }
 .transaksi{
     width: 40%;
     height: 100%;
-    background-color: rgb(65, 74, 80);
+    background-color: rgb(196, 225, 250);
+    margin-left: 20px;
 }
 .title{
     display: flex;

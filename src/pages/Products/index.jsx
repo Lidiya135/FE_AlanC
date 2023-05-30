@@ -49,7 +49,7 @@ export default function Products() {
         getData()
     }, [])
 
-    const deleteData = (id) => {
+    const deleteData = (e, id) => {
         axios.delete(`http://localhost:4019/product/${id}`,)
             .then((res) => {
                 console.log("delete barang success")
@@ -146,7 +146,7 @@ export default function Products() {
                         <tbody key={p.id}>
                             <tr>
                                 <td>
-                                    <img src={p.photo} style={{width:"100px", heigh:"100px"}} />
+                                    <img src={p.photo} style={{width:"120px", height:"100px"}} />
                                 </td>
                                 <td>{p.name}</td>
                                 <td>{p.price}</td>
