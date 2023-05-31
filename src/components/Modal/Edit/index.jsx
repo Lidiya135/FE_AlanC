@@ -60,7 +60,7 @@ function Edit({ data }) {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        Edit Barang
+        Edit
       </Button>
 
       <Modal show={show} onHide={handleClose}>
